@@ -1,4 +1,11 @@
+.mainCard {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
 .md-headline {
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   text-align: center;
 }
@@ -8,5 +15,11 @@
 }
 
 .infoDiv {
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
+}
+
+#icon {
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
