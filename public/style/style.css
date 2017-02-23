@@ -16,6 +16,10 @@
   width: 98%;
 }
 
+img {
+  max-width: 100%;
+}
+
 .infoDiv {
   font-family: "Times New Roman", Times, serif;
   text-align: left;
