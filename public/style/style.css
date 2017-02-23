@@ -1,5 +1,4 @@
 .mainCard {
-
   /*margin-left: 30px;
   margin-right: 30px;
   margin-top: 30px;*/
@@ -14,14 +13,19 @@
 
 .picDiv {
   text-align: center;
+  width: 98%;
 }
 
 .infoDiv {
   font-family: "Times New Roman", Times, serif;
-  text-align: center;
+  text-align: left;
 }
 
 #icon {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.iconDiv {
+  text-align: center;
 }
