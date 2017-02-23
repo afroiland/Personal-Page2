@@ -6,9 +6,9 @@
 }
 
 .md-headline {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 45px;
-  text-align: center;
+  text-align: left;
 }
 
 .picDiv {
@@ -21,7 +21,7 @@ img {
 }
 
 .infoDiv {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: left;
 }
 
