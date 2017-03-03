@@ -8,10 +8,10 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'HomeController',
       controllerAs: 'home'
     })
-    .when('/admin', {
-      templateUrl: '/views/templates/admin.html',
-      controller: 'AdminController',
-      controllerAs: 'admin'
+    .when('/writings', {
+      templateUrl: '/views/templates/writings.html',
+      controller: 'HomeController',
+      controllerAs: 'home'
     })
     .otherwise({
       redirectTo: '/home'

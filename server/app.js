@@ -1,6 +1,7 @@
 
 var express = require('express');
 var path = require('path');
+// var writings = require('./routes/writings');
 var app = express();
 
 const LOCALPORT = 3000;
@@ -17,7 +18,7 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '../public/views/index.html'));
 });
 
-// app.use('/addStudent', addStudent);
+// app.use('/writings', writings);
 // app.use('/admin', admin);
 // app.use('/pizza', pizza);
 
