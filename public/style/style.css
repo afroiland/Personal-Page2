@@ -37,6 +37,11 @@ img {
   text-align: center;
 }
 
+.homeButton {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
 #copy {
   text-align: center;
 }
