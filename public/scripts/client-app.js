@@ -13,6 +13,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'HomeController',
       controllerAs: 'home'
     })
+    .when('/apps', {
+      templateUrl: '/views/templates/apps.html',
+      controller: 'HomeController',
+      controllerAs: 'home'
+    })
     .otherwise({
       redirectTo: '/home'
     });//End route
