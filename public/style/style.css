@@ -52,6 +52,12 @@ img {
   color: black;
 }
 
+#homeLink {
+  font-size: 120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #copy {
   text-align: center;
 }
